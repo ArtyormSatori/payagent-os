@@ -1,0 +1,45 @@
+{
+  "name": "payagent-os",
+  "version": "1.0.0",
+  "description": "PayAgent OS (NexusPay AI) - Autonomous Agentic Commerce Gateway & Financial Operations Center powered by PayPal Developer Platform and AI Guardrails",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "tsx src/tests/run_all_tests.ts",
+    "test:core": "tsx src/tests/test_core_flows.ts",
+    "simulate": "tsx src/tests/simulate_agent_procurement.ts"
+  },
+  "keywords": [
+    "paypal",
+    "agentic-commerce",
+    "ai-agent",
+    "hackathon",
+    "paypal-sandbox",
+    "mcp",
+    "payments"
+  ],
+  "author": "TAVIS & Team",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.19.43",
+    "@types/react": "^18.3.12",
+    "autoprefixer": "^10.6.1",
+    "clsx": "^2.1.1",
+    "dotenv": "^18.0.8",
+    "lucide-react": "^1.59.0",
+    "next": "^14.2.15",
+    "postcss": "^8.5.31",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^3.7.0",
+    "tailwindcss": "^3.4.14",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15",
+    "typescript": "^5.6.3"
+  }
+}
