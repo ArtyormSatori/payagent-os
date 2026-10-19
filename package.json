@@ -10,6 +10,7 @@
     "lint": "next lint",
     "test": "tsx src/tests/run_all_tests.ts",
     "test:core": "tsx src/tests/test_core_flows.ts",
+    "test:e2e": "tsx src/tests/test_e2e_flow.ts",
     "simulate": "tsx src/tests/simulate_agent_procurement.ts"
   },
   "keywords": [
@@ -26,6 +27,8 @@
   "dependencies": {
     "@types/node": "^20.19.43",
     "@types/react": "^18.3.12",
+    "ag-grid-community": "^36.2.0",
+    "ag-grid-react": "^36.2.0",
     "autoprefixer": "^10.6.1",
     "clsx": "^2.1.1",
     "dotenv": "^18.0.8",

@@ -2,6 +2,7 @@ import { runPayPalClientTests } from "./test_paypal_client";
 import { runPolicyGuardrailTests } from "./test_policy_guardrails";
 import { runProcurementEngineTests } from "./test_procurement_engine";
 import { runMcpToolsTests } from "./test_mcp_tools";
+import { runE2ETests } from "./test_e2e_flow";
 
 async function main() {
   const startTime = Date.now();
@@ -14,6 +15,7 @@ async function main() {
   results.push(await runPolicyGuardrailTests());
   results.push(await runProcurementEngineTests());
   results.push(await runMcpToolsTests());
+  results.push(await runE2ETests());
 
   const durationMs = Date.now() - startTime;
   let totalTests = 0;
