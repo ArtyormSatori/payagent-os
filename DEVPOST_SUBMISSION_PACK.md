@@ -4,7 +4,7 @@
 - **Title**: PayAgent OS (NexusPay AI)
 - **Tagline**: Autonomous Agentic Commerce Gateway for the PayPal Platform. Bridging AI agent autonomy with real-world financial settlement securely via Policy Guardrails & MCP.
 - **Built-with**: Next.js 14, TypeScript, PayPal Orders v2 API, Invoicing v2, Payouts v1, Model Context Protocol (MCP), AG Grid Enterprise Telemetry, Tailwind CSS, Zod.
-- **Repo URL**: [TO BE FILLED]
+- **Repo URL**: https://github.com/ArtyormSatori/payagent-os
 
 ## Project Story
 
